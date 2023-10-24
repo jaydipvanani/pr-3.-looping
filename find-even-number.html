@@ -1,0 +1,24 @@
+<script>
+    // 2.Write javascript program to print 1 to n number and find even number using while loop .
+
+    let n = parseInt(prompt("enter value :"));
+
+    function printEvenNumber(n){
+        
+        let i = 1;
+        document.write(" numbers from 1 to "+n+"<br>");
+        while (i <= n) {
+
+            if(i % 2 == 0){
+                document.write(i + " is an Even Number"+"<br/>");
+            }
+            // else{
+            //     document.write(i + " is not an Even Number"+"<br/>");
+            // }
+            i++;
+        }
+    }
+    printEvenNumber(n);
+
+
+</script>

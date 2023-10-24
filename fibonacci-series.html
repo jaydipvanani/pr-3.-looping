@@ -1,0 +1,21 @@
+<script>
+
+// 13.Write javascript program print out Fibonacci series. (0,1,1,2,3,5,8…)
+
+let a = 0, b = 1, c;
+
+    let n = parseInt(prompt("Enter value : "))
+    
+    document.write(a);
+    document.write(b);
+
+    c = a + b;
+
+    while (c <= n) {
+
+        document.write(c);
+        a = b;
+        b = c;
+        c = a + b;
+    }
+</script>
